@@ -40,7 +40,6 @@ public class Main extends Thread {
        //find bonded devices
        Set<BluetoothDevice> pairedDevices = mBluetoothAdapter.getBondedDevices();
        
-       //check for devicename "Joaquin", our bluetooth module
        if(pairedDevices.size() > 0)
        {
            for(BluetoothDevice device : pairedDevices)
